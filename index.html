@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sanket Walanj</title>
     <!-- Fontawesome  -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="./fontawesome-free-6.1.1-web/css/all.min.css"
-    />
+    /> -->
+    <script
+      src="https://kit.fontawesome.com/06c4e9405d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Styles  -->
     <link rel="stylesheet" href="./styles.css" />
     <!-- favicon  -->
@@ -19,22 +23,98 @@
     <!-- Header  -->
     <header id="home">
       <!-- Navbar  -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
+            <img
+              src="./images/logo_1.png"
+              alt="Logo Sanket Walanj"
+              class="nav-logo"
+              alt="Sanket Walanj"
+              height="30px"
+            />
+            <button
+              type="button"
+              class="nav-toggle"
+              id="nav-toggle"
+              aria-label="nav toggler"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <!-- navbar links  -->
+        <div class="nav-links" id="nav-links">
+          <div class="nav-links-wrapper">
+            <a href="#home" class="nav-link">home</a>
+            <a href="#about" class="nav-link">about</a>
+            <a href="#projects" class="nav-link">projects</a>
+            <a href="#contact" class="nav-link">contact</a>
+          </div>
+        </div>
+        <!-- End of navbar links  -->
+        <!-- Social Media Icons  -->
+        <!-- <a href="#" class="nav-icon"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="nav-icon"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="nav-icon"><i class="fa-brands fa-facebook"></i></a> -->
+
+        <!-- Social Media Icons  -->
+      </nav>
       <!-- End of Navbar  -->
       <nav></nav>
       <!-- Hero  -->
       <div class="hero">
         <div class="hero-banner">
-          <h1 class="hero-title">Sanket Walanj</h1>
-          <p class="hero-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nihil
-            quia molestias?
-          </p>
-          <a href="#about" class="btn-white">explore</a>
+          <div class="hero-content">
+            <p class="hero-text">Hi.. my name is</p>
+            <h1 class="hero-title">Sanket Walanj</h1>
+            <p class="hero-text">I am a <span>Frontend Developer</span></p>
+            <a href="#about" class="btn-orange">explore</a>
+          </div>
         </div>
       </div>
       <!-- End of Hero  -->
     </header>
     <!-- End of Header  -->
+    <!-- About Section  -->
+    <section class="section about" id="about">
+      <!-- title  -->
+      <div class="title-wrapper">
+        <h2 class="title">about <span class="subtitle">me</span></h2>
+      </div>
+      <!-- end of title  -->
+      <!-- about center  -->
+      <div class="about-center section-center">
+        <!-- about image  -->
+        <article class="about-img">
+          <img
+            src="./images/about-img.jpg"
+            alt="About Photo"
+            class="about-photo"
+          />
+        </article>
+        <!-- about info  -->
+        <article class="about-info">
+          <h3 class="">Sanket Rajendra Walanj</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+            sint velit quam aut dolor odio quidem sed qui ducimus ipsam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+            sint velit quam aut dolor odio quidem sed qui ducimus ipsam?
+          </p>
+          <a href="#" class="btn-orange">Read More</a>
+        </article>
+      </div>
+      <!-- End of about center  -->
+    </section>
+
+    <!-- End of About Section  -->
+
+    <!-- About Section  -->
+    <!-- End of About Section  -->
 
     <script src="./app.js"></script>
   </body>
