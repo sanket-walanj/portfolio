@@ -1,0 +1,80 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+/* CSS Variables  */
+:root {
+  --primaryColor: #fca311;
+  --secondaryColor: #14213d;
+  --primaryWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #000;
+  --mainGrey: #e5e5e5;
+  --mainTransition: all 0.4s linear;
+  --mainSpacing: 0.2rem;
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* reset  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body  */
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+/* **************** Global Styles ************* */
+img {
+  width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--mainSpacing);
+}
+h1 {
+  font-size: 3.3rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  line-height: 2;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+/* More Global Styles  */
+
+/* **************** End of Global Styles ************* */
+
+/* ************* Navbar ************** */
+/* ************* End Of Navbar ************** */
+
+/* ************* Hero ************** */
+/* ************* End Of Hero ************** */
